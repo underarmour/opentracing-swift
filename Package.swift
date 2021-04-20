@@ -11,6 +11,10 @@ let package = Package(
     products: [
         .library(
             name: "OpenTracing",
+            targets: ["OpenTracing"]),
+        .library(
+            name: "OpenTracingDynamic",
+            type: .dynamic,
             targets: ["OpenTracing"])
     ],
     targets: [
