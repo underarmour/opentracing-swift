@@ -39,6 +39,7 @@
 		19A307C621DFED7900DE7096 /* Span.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Span.swift; sourceTree = "<group>"; };
 		19A307C721DFED7900DE7096 /* SpanContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpanContext.swift; sourceTree = "<group>"; };
 		19A307C821DFED7900DE7096 /* Tracer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracer.swift; sourceTree = "<group>"; };
+		B97355C825E41A5F005DC697 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		19A307AA21DFED0800DE7096 = {
 			isa = PBXGroup;
 			children = (
+				B97355C825E41A5F005DC697 /* Package.swift */,
 				19A307B621DFED0800DE7096 /* OpenTracing */,
 				19838D372213854C00782CC0 /* OpenTracing watchOS */,
 				19A307B521DFED0800DE7096 /* Products */,
